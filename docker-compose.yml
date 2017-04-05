@@ -1,0 +1,8 @@
+version: '2.1'
+services:
+  web:
+    container_name: web
+    image: centos/systemd:latest
+    privileged: true
+    ports:
+      - "80:80"

@@ -1,0 +1,4 @@
+*.retry
+
+galaxy_roles/*
+!galaxy_roles/.keep
